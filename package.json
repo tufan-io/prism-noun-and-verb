@@ -1,0 +1,21 @@
+{
+  "name": "prism-noun-and-verb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "noun-and-verb.min.js",
+  "scripts": {
+    "minify::css":"esbuild src/noun-and-verb.css --minify --outfile=src/noun-and-verb.min.css",
+    "minify::js": "esbuild src/noun-and-verb.js --minify --outfile=src/noun-and-verb.min.js",
+    "minify": "npm run minify::css && npm run minify::js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tufan-yujonglee/prism-noun-and-verb.git"
+  },
+  "author": "Jayden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tufan-yujonglee/prism-noun-and-verb/issues"
+  },
+  "homepage": "https://github.com/tufan-yujonglee/prism-noun-and-verb#readme"
+}
