@@ -2,7 +2,7 @@
   "name": "prism-noun-and-verb",
   "version": "1.0.0",
   "description": "",
-  "main": "noun-and-verb.min.js",
+  "main": "src/noun-and-verb.min.js",
   "scripts": {
     "minify::css":"esbuild src/noun-and-verb.css --minify --outfile=src/noun-and-verb.min.css",
     "minify::js": "esbuild src/noun-and-verb.js --minify --outfile=src/noun-and-verb.min.js",
